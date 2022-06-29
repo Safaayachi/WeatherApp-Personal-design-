@@ -1,17 +1,19 @@
 html{
     position: relative;
+    height:100vh;
 }
 body{
-    background-image: url("../images/hot.jpg");
+    background-image: url("../images/clear.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
 }
 .time{
     
     display: flex;
     gap: 6px;
 }
+
 .more-infos{
     
     display: flex;
@@ -78,10 +80,17 @@ body{
     margin-left: 25px;  
 }
 /*********************************Footer********************************/
+hr{
+    border-top: 0px solid ;
+    margin-bottom: 20px;
+  }
 footer{
-    padding: 20px;
+    padding: 15px;
     background-color: transparent; 
-    border-top: 1px solid #e9edf0;
+    
+}
+footer p {
+    color:#333;
 }
 .footer-container{
     display: flex;
@@ -97,24 +106,30 @@ footer{
     border-color:rgba(241, 235, 235, 0);
     border-style: solid;
     height: 160px;
-    width: 120px;
-    background-color: aqua;
+    width: 140px;
+    background-color: rgba(245, 245, 245, 0.45);
     padding: 20px;
     border-radius:5px;
-    margin: 40px 0px;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 13px 5px rgba(255,255,255,0); 
+      box-shadow: 0px 10px 13px -7px #000000, 5px 5px 13px 5px rgba(255,255,255,0);
     
 }
 .footer-temperature{
     display: flex;
-    gap: 12px;
+    gap: 14px;
 }
 .footer-day p{
     font-size:12px;
     padding:6px;
-    background-color: aquamarine;
+    background-color: white;
     border-radius:15px;
 }
 .footer-temperature p{
     line-height: 16px;
     font-size: 12px;
+}
+.footer-icon{
+    color:black;
+    padding: 4px;
 }
