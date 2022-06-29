@@ -1,0 +1,120 @@
+html{
+    position: relative;
+}
+body{
+    background-image: url("../images/hot.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.time{
+    
+    display: flex;
+    gap: 6px;
+}
+.more-infos{
+    
+    display: flex;
+    gap: 80px;
+    border-color:rgb(245, 245, 245,0.2);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    height: 150px;
+   
+
+
+}
+.main-section{
+    
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-flex-container{
+    padding: 20px;
+    height: 450px;
+    width: 380px;
+    border-color:rgb(245, 245, 245,0);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 13px 5px rgba(255,255,255,0); 
+      box-shadow: 0px 10px 13px -7px #000000, 5px 5px 13px 5px rgba(255,255,255,0);
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    background-color: transparent; 
+}
+.time{
+    margin-bottom: 2px;
+}
+
+.time-p{
+    font-size: 40px;
+    margin-left: 15px;
+}
+.info p{
+    line-height: 25px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.date{
+    margin-bottom: 20px;
+}
+.weather-main{
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 30px;  
+}
+.temperature{
+    font-size: 85px;
+    margin-bottom: 40px;
+    margin-left: 25px;  
+}
+/*********************************Footer********************************/
+footer{
+    padding: 20px;
+    background-color: transparent; 
+    border-top: 1px solid #e9edf0;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-width: 1px;
+    border-color:rgba(241, 235, 235, 0);
+    border-style: solid;
+    height: 160px;
+    width: 120px;
+    background-color: aqua;
+    padding: 20px;
+    border-radius:5px;
+    margin: 40px 0px;
+    
+}
+.footer-temperature{
+    display: flex;
+    gap: 12px;
+}
+.footer-day p{
+    font-size:12px;
+    padding:6px;
+    background-color: aquamarine;
+    border-radius:15px;
+}
+.footer-temperature p{
+    line-height: 16px;
+    font-size: 12px;
+}
